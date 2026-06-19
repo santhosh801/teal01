@@ -1,0 +1,44 @@
+[
+  {
+    "alertRef": "TV-7c48f8a1-cf5e-4ef5-9a67-62aeb809f6df",
+    "timestamp": 1778170024000,
+    "symbol": "RELIANCE",
+    "type": "SPIKE",
+    "description": "Price increased 4.1% within 30 simulated seconds",
+    "value": 2496.5,
+    "threshold": 3,
+    "details": {
+      "basePrice": 2398.15,
+      "currentPrice": 2496.5,
+      "percentChange": 4.1011
+    }
+  },
+  {
+    "alertRef": "TV-0d2e85a6-9811-4099-b1ff-97fbb30c69d8",
+    "timestamp": 1778170085000,
+    "symbol": "RELIANCE",
+    "type": "SPIKE",
+    "description": "Price decreased 3.2% within 30 simulated seconds",
+    "value": 2416.6,
+    "threshold": 3,
+    "details": {
+      "basePrice": 2496.5,
+      "currentPrice": 2416.6,
+      "percentChange": -3.2005
+    }
+  },
+  {
+    "alertRef": "TV-cbe6b1b5-829d-4767-a2ef-9fbf61a867c4",
+    "timestamp": 1778170146000,
+    "symbol": "TCS",
+    "type": "MOVING_AVERAGE_DEVIATION",
+    "description": "Price deviated 6.1% above the moving average of last 10 samples",
+    "value": 3820.0,
+    "threshold": 5,
+    "details": {
+      "movingAverage": 3600.38,
+      "currentPrice": 3820.0,
+      "deviation": 6.0999
+    }
+  }
+]

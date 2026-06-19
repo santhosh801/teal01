@@ -1,0 +1,37 @@
+{
+  "name": "trackz-anomaly-backend",
+  "version": "1.0.0",
+  "description": "Real-Time Stock Anomaly Detection Platform — Backend Foundation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node src/detection/anomalyEngine.test.js"
+  },
+  "keywords": [
+    "stock",
+    "anomaly-detection",
+    "socket.io",
+    "express",
+    "real-time"
+  ],
+  "author": "Trackz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "uuid": "^10.0.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
