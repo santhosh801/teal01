@@ -1,10 +1,12 @@
 # Trackz Real-Time Anomaly Detection Platform
+<img width="959" height="522" alt="image" src="https://github.com/user-attachments/assets/4a9d1313-6bfc-4446-b8d2-577e940f064e" />
 
 A premium, high-throughput, low-latency stock anomaly detection platform. Trackz ingests live mock market tick feeds (e.g., RELIANCE, TCS), normalizes and processes them in real-time through custom detection strategies, identifies sudden spikes or moving average deviations, and broadcasts alerts downstream to a React-based dashboard.
 
 ---
 
 ## ⚡ Highlights & Key Features
+<img width="951" height="416" alt="image" src="https://github.com/user-attachments/assets/80707766-5d88-4e71-9d2c-98c4a7cc1e58" />
 
 - **Ingestion Pipeline**: Asynchronous Socket.IO client that listens to an upstream mock market feed, normalizes incoming ticks, and tracks symbol states.
 - **Dynamic Detection Engine**: Processes normalized ticks through a pluggable strategy pattern:
@@ -269,5 +271,6 @@ During the live feed session shown in the dashboard screenshot, RELIANCE accumul
 2. Maintain clean separation of responsibilities: keep strategies stateless relative to individual ticks, leaving session management to the state engine.
 3. Keep all responsive layouts adhering to the grid structure defined in `App.css`.
 
-#   t e a l 0 1  
+#   t e a l 0 1 
+ 
  
